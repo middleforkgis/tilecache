@@ -9,7 +9,7 @@ except:
     use_setuptools()
     from setuptools import setup
 
-with open('docs/README.txt', 'rb') as f:
+with open('tilecache/docs/README.txt', 'rb') as f:
     readme = f.read()
 
 
